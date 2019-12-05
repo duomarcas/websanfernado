@@ -10,11 +10,11 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 2.5rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 4rem;
 }
 .display-2 {
   font-family: 'Roboto', sans-serif;
@@ -55,9 +55,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2rem;
+    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
@@ -1524,6 +1524,18 @@ section.lazy-placeholder:after {
 }
 .cid-rIphkDPpAS P {
   color: #4f4943;
+}
+.cid-rJBEyP0alk {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #a9cc74;
+  background: linear-gradient(45deg, #a9cc74, #435d27);
+}
+.cid-rJBEyP0alk .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-rJBEyP0alk .btn {
+  margin: 0 0 .5rem 0;
 }
 .cid-rIpkTTUSpE {
   padding-top: 75px;
